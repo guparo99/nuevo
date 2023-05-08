@@ -1,0 +1,135 @@
+
+    body{
+	background: linear-gradient(to right, #e3f2f1, #bfd4d3);
+    padding: 40px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+.flex-container {
+    display: flex;
+    background-color: burlywood;
+    padding: 10;
+
+}
+.flex-container div {
+    display: flex;
+
+    background-color: gainsboro;
+    /* width: 100px; */
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px; 
+    /* border: 2px solid black; */
+}
+/* .flex-main-container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+} */
+
+
+.first-row {
+    /* display: flex; */
+    /* align-items: center; */
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: right; */
+    /* width: 60%; */
+
+    /* background: darkgreen;
+	border-top-right-radius: 25px;
+    border-top-left-radius: 25px; */
+    /* color: blanchedalmond; */
+}
+.second-row {
+    flex-direction:column
+}
+.logo {
+    padding: 5px;
+
+    border-radius: 25px;
+    justify-content: left;
+}
+.login-container {
+    display: flex;
+    background-color: crimson;
+
+    /* width: 100%; */
+    justify-content: end;
+    
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background: #425c5a;
+    align-items: center;
+}
+
+.content-container {
+    width: 85%;
+    background-color: rgb(239, 241, 239);
+    color: rgb(27, 26, 10);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.options-container ul {
+    /* width: 100%; */
+    list-style: none;
+    padding: 0;
+    color: blanchedalmond;
+}
+
+.options-container li {
+    margin: 5px 0;
+
+}
+
+
+.footer {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background: darkgreen;
+}
+
+.button {
+  /* background-color: #4CAF50;  */
+  /* background-color: rgb(25, 61, 25); */
+  /* background: rgb(5, 24, 5); */
+
+  background: rgb(0, 100, 70);
+
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  width: 100%;
+}
